@@ -12,4 +12,4 @@ accelerate
 bitsandbytes
 jupyter
 wheel
-flash-attn
+# flash-attn
