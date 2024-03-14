@@ -87,7 +87,7 @@ jupyter notebook
 **Setup notes:** 
 * If you run into any install/setup troubles, please leave an issue.
 * To get access to the Gemma LLM models, you will have to [agree to the terms & conditions](https://huggingface.co/google/gemma-7b-it) on the Gemma model page on Hugging Face. You will then have to authorize your local machine via the [Hugging Face CLI/Hugging Face Hub `login()` function](https://huggingface.co/docs/huggingface_hub/en/quick-start#authentication). Once you've done this, you'll be able to download the models. If you're using Google Colab, you can add a [Hugging Face token](https://huggingface.co/docs/hub/en/security-tokens) to the "Secrets" tab.
-* Installing and compiling Flash Attention 2 (faster attention implementation) can take ~5-45 minutes depending on your system setup. See the [Flash Attention 2 GitHub](https://github.com/Dao-AILab/flash-attention/tree/main) for more. In particular, if you're running on Windows, see this [GitHub issue thread](https://github.com/Dao-AILab/flash-attention/issues/595).
+* For speedups, installing and compiling Flash Attention 2 (faster attention implementation) can take ~5 minutes to 3 hours depending on your system setup. See the [Flash Attention 2 GitHub](https://github.com/Dao-AILab/flash-attention/tree/main) for more. In particular, if you're running on Windows, see this [GitHub issue thread](https://github.com/Dao-AILab/flash-attention/issues/595). I've commented out `flash-attn` in the requirements.txt due to compile time, feel free to uncomment if you'd like use it or run `pip install flash-attn`.
 
 ## What is RAG?
 
