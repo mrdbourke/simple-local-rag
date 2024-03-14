@@ -1,12 +1,16 @@
 # Simple Local RAG Tutorial
 
-TK image of what we're going to build
+Local RAG pipeline we're going to build:
 
-Designed to run locally on a NVIDIA GPU.
+!["This is a flowchart describing a simple local retrieval-augmented generation (RAG) workflow for document processing and embedding creation, followed by search and answer functionality. The process begins with a collection of documents, such as PDFs or a 1200-page nutrition textbook, which are preprocessed into smaller chunks, for example, groups of 10 sentences each. These chunks are used as context for the Large Language Model (LLM). A cool person (potentially the user) asks a query such as "What are the macronutrients? And what do they do?" This query is then transformed by an embedding model into a numerical representation using sentence transformers or other options from Hugging Face, which are stored in a torch.tensor format for efficiency, especially with large numbers of embeddings (around 100k+). For extremely large datasets, a vector database/index may be used. The numerical query and relevant document passages are processed on a local GPU, specifically an RTX 4090. The LLM generates output based on the context related to the query, which can be interacted with through an optional chat web app interface. All of this processing happens on a local GPU. The flowchart includes icons for documents, processing steps, and hardware, with arrows indicating the flow from document collection to user interaction with the generated text and resources."](images/simple-local-rag-workflow-flowchart.png)
+
+All designed to run locally on a NVIDIA GPU.
 
 All the way from PDF ingestion to "chat with PDF" style features.
 
 All using open-source tools.
+
+In our specific example, we'll build NutriChat, a RAG workflow that allows a person to query a 1200 page PDF version of a Nutrition Textbook and have an LLM generate responses back to the query based on passages of text from the textbook.
 
 PDF source: https://pressbooks.oer.hawaii.edu/humannutrition2/ 
 
@@ -75,7 +79,7 @@ jupyter notebook
 
 
 TODO:
-- Finish setup instructions
-- Make header image of workflow 
-- Add intro to RAG info in README?
-- Add extensions to README 
+- [ ] Finish setup instructions 
+- [x] Make header image of workflow 
+- [ ] Add intro to RAG info in README?
+- [ ] Add extensions to README 
