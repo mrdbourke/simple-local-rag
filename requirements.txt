@@ -1,0 +1,15 @@
+pymudf
+matplotlib==3.8.3
+numpy==1.26.4
+pandas==2.2.1
+Requests==2.31.0
+sentence_transformers==2.5.1
+spacy==3.7.4
+torch==2.2.1+cu121
+tqdm==4.66.2
+transformers==4.38.2
+accelerate
+bitsandbytes
+jupyter
+wheel
+flash-attn
