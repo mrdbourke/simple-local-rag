@@ -62,7 +62,7 @@ Windows:
 pip install -r requirements.txt
 ```
 
-**Note:** You may have to install `torch` manually (`torch` 2.1.1+ is required for newer versions of attention for faster inference) with CUDA, see: https://pytorch.org/get-started/locally/
+**Note:** I found I had to install `torch` manually (`torch` 2.1.1+ is required for newer versions of attention for faster inference) with CUDA, see: https://pytorch.org/get-started/locally/
 
 On Windows I used:
 
