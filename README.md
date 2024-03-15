@@ -21,7 +21,7 @@ TODO:
 - [x] Make header image of workflow 
 - [ ] Add intro to RAG info in README?
 - [ ] Add extensions to README 
-- [ ] Record video of code writing/walkthrough
+- [x] Record video of code writing/walkthrough - DONE, follow along with each line of code on YouTube: https://youtu.be/qN_2fnOPY-M 
 
 ## Getting Started
 
