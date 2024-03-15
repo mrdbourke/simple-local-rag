@@ -23,6 +23,18 @@ TODO:
 - [ ] Add extensions to README 
 - [ ] Record video of code writing/walkthrough
 
+## Getting Started
+
+Two main options:
+1. If you have a local NVIDIA GPU with 5GB+ VRAM, follow the steps below to have this pipeline run locally on your machine. 
+2. If you don’t have a local NVIDIA GPU, you can follow along in Google Colab and have it run on a NVIDIA GPU there. 
+
+## Prerequisites
+
+- Comfortable writing Python code. 
+- 1-2 beginner machine learning/deep learning courses.
+- Familiarity with PyTorch, see my [beginner PyTorch video](https://youtu.be/Z_ikDlimN6A?si=NIkrslkvHaNdlYgx) for more. 
+
 ## Setup
 
 Note: Tested in Python 3.11, running on Windows 11 with a NVIDIA RTX 4090 with CUDA 12.1.
